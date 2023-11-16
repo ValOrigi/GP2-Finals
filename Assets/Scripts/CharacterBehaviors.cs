@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterBehaviors : MonoBehaviour
 {
@@ -59,6 +60,10 @@ public class CharacterBehaviors : MonoBehaviour
             walkSpeed *= 2f;
         }
 
+        if (Input.GetKey("r"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
         UpdateAnimationState();
     }
 
