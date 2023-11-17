@@ -20,6 +20,11 @@ public class ButtonNavigation : MonoBehaviour
 		SceneManager.LoadScene(0);
 	}
 
+	public void OnRestartButton()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+	}
+
 	public void OnQuitButton()
 	{
 		Application.Quit();

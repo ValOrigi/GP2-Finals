@@ -6,27 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start Screen.unity
+    path: Assets/Scenes/01 StartScreen.unity
     guid: 2029a6635d5bc9f46a50598e4cf14967
   - enabled: 1
-    path: Assets/Scenes/Controls.unity
+    path: Assets/Scenes/02 Controls.unity
     guid: cdc1c64e45f01c3428616ba350b95fe5
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/03 Level1.unity
     guid: 40542785ba3ea8744840b628628f6a03
   - enabled: 1
-    path: Assets/Scenes/Level2.unity
+    path: Assets/Scenes/04 Level2.unity
     guid: 4dce4693949bf7b45b815c965874e832
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
+    path: Assets/Scenes/05 Level3.unity
     guid: 66dd57796843c3847afc64efc03ed207
   - enabled: 1
-    path: Assets/Scenes/Level4.unity
-    guid: ad2d446901a715249ba6996997272f88
+    path: Assets/Scenes/06 Level4.unity
+    guid: 65a395ccad4ab294f8dc9ad38bd96224
   - enabled: 1
-    path: Assets/Scenes/Level5.unity
-    guid: 7f3ae784a201a28488d06fc2ae7e1db5
+    path: Assets/Scenes/07 Level5.unity
+    guid: e18bf433f0a8f6d4eb47c4ca5b3974c7
   - enabled: 1
-    path: Assets/Scenes/WinScene.unity
+    path: Assets/Scenes/08 Level6.unity
+    guid: 47f84ab3d81e31f4c93d88caa9bf3899
+  - enabled: 1
+    path: Assets/Scenes/0999 WinScene.unity
     guid: ffe183b8e8ba3cd4885198f687f5ac90
   m_configObjects: {}
